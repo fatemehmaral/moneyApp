@@ -4,7 +4,7 @@
 
 **About**
 ---
-This is a budgeting app that calculates a basic balance based on a list of income and expenses.
+This is a money app that calculates a basic balance based on a list of income and expenses.
 
 **How to use**
 ---
