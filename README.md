@@ -13,3 +13,6 @@ moneyapp helps you track your cash, discover new ways to save, and even build!
 2. Open project in Visual studio code or sublime text
 3. Now you are ready to get started 🎉
 ---
+**contributing**
+---
+Get started with this simple and easy to follow project , it doesn't matter whether you are a beginner or a pro in web-development and open source ! We are always here to help you out and get started .If you like this project please give a star that would help us to motivate for this project.
