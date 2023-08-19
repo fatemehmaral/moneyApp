@@ -4,7 +4,8 @@
 
 **About**
 ---
-This is a money app that calculates a basic balance based on a list of income and expenses.
+This is a money web app that calculates a basic balance based on a list of income and expenses.
+moneyapp helps you track your cash, discover new ways to save, and even build!
 
 **How to use**
 ---
