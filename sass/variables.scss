@@ -1,0 +1,9 @@
+$textcolor:#ffffff;
+$bg-color:#249d70;
+@mixin flexCenter(){
+    display: flex;
+    align-items: center;
+}
+@mixin blockDisplay(){
+    display:block;
+}

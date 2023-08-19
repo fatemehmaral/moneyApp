@@ -1,0 +1,125 @@
+
+@import url(./variables.scss);
+@import url(./container.scss);
+
+
+@font-face {
+    font-family: iranyekan;
+    src: url(./woff/iranyekanwebbold.woff);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: iranyekan;
+  }
+  body {
+    background-image: url(./img/wallpaper2you_389151.jpg);
+   background-size: cover;
+  }
+  .wrapper {
+    width: 90%;
+    font-size: 16px;
+    max-width: 43.75em;
+    margin: 3rem auto;
+    h3 {
+      color: #363d55;
+      font-weight: 500;
+      margin-bottom: 0.6em;
+    }
+  }
+ 
+  .flex {
+   @include flexCenter();
+  }
+  .flex-space {
+   
+    justify-content: space-between;
+    @include flexCenter();
+
+  }
+  
+
+  
+  .total-amount-container,
+  .user-amount-container {
+    background-color: #d5d3d3;
+    padding: 1.25em 0.9em;
+    border-radius: 0.3em;
+    box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+  }
+  
+  
+  .submit {
+    font-size: 1em;
+    margin-top: 0.8em;
+    background-color:$bg-color ;
+    border: none;
+    outline: none;
+    color: $textcolor;
+    padding: 0.6em 1.2em;
+    border-radius: 0.3em;
+    cursor: pointer;
+  }
+  .list {
+    background-color: #d5d3d3;
+    padding: 1.8em 1.2em;
+    box-shadow: 0 0.6em 1.2em rgba(28, 0, 80, 0.06);
+    border-radius: 0.6em;
+  }
+  .sublist-content {
+    width: 100%;
+    border-left: 0.3em solid #094a1e;
+    margin-bottom: 0.6em;
+    padding: 0.5em 1em;
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr 1fr;
+  }
+  .product {
+    font-weight: 500;
+    color: #363d55;
+  }
+  .amount {
+    color: #414a67;
+    margin-left: 20%;
+  }
+  .icons-container {
+    width: 5em;
+    margin: 1.2em;
+    align-items: center;
+  }
+  .product-title {
+    margin-bottom: 1em;
+  }
+  .hide {
+    display: none;
+  }
+  .error {
+    color: #ff465a;
+  }
+  
+  .edit {
+    background: transparent;
+    cursor: pointer;
+    margin-right: 1.5em;
+    border: none;
+    color: $bg-color;
+    margin-left: auto;
+  }
+  .delete{
+    background: transparent;
+    cursor: pointer;
+    margin-right: 1.5em;
+    border: none;
+    color: #ff465a;
+  }
+  @media screen and (max-width: 600px) {
+    .wrapper {
+      font-size: 14px;
+    }
+    .sub-container {
+      grid-template-columns: 1fr;
+      gap: 1em;
+    }
+  }

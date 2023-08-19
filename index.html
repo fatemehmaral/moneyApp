@@ -1,0 +1,83 @@
+<html lang="en" dir="rtl">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget App</title>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+<!-- Script -->
+<script src="./app.js" defer ></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./sass/style.scss">
+<link rel="stylesheet" href="./sass/style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="sub-container">
+          <!-- Budget -->
+          <div class="total-amount-container">
+            <h3>درآمد</h3>
+            <p class="hide error" id="budget-error">
+              مقادیر نمیتوانند خالی یا منفی باشند!
+            </p>
+            <input
+              type="number"
+              id="total-amount"
+              placeholder="مقدار کل را وارد کنید"
+            />
+            <button class="submit" id="total-amount-button">تایید درآمد</button>
+          </div>
+
+          <!-- Expenditure -->
+          <div class="user-amount-container">
+            <h3>هزینه ها</h3>
+            <p class="hide error" id="product-title-error">
+             مقادیر نمیتوانند خالی باشند!
+            </p>
+            <input
+              type="text"
+              class="product-title"
+              id="product-title"
+              placeholder="عنوان محصول را وارد کنید"
+            />
+            <input
+              type="number"
+              id="user-amount"
+              placeholder="هزینه محصول را وارد کنید"
+            />
+            <button class="submit" id="check-amount">تایید </button>
+          </div>
+        </div>
+        <!-- Output -->
+        <div class="output-container flex-space">
+          <div>
+            <p>درآمد کل</p>
+            <span id="amount">0</span>
+          </div>
+          <div>
+            <p>هزینه ها</p>
+            <span id="expenditure-value">0</span>
+          </div>
+          <div>
+            <p>تراز</p>
+            <span id="balance-amount">0</span>
+          </div>
+        </div>
+      </div>
+      <!-- List -->
+      <div class="list">
+        <h3>لیست هزینه ها</h3>
+        <div class="list-container" id="list"></div>
+      </div>
+    </div>
+    
+  </body>
+</html>
