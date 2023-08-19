@@ -5,3 +5,9 @@
 **About**
 ---
 This is a budgeting app that calculates a basic balance based on a list of income and expenses.
+---
+**How to use**
+---
+1. Fork, Clone and Remote
+2. Open project in Visual studio code or sublime text
+3. Now you are ready to get started 🎉
