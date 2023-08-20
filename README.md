@@ -1,8 +1,8 @@
-**moneyApp-overview**
+**MoneyApp-Overview**
 ----
 ![Screenshot 2023-08-19 231232](https://github.com/fatemehmaral/moneyApp/assets/135278518/9aea42e7-9cf6-4e08-934d-c63c1bf88805)
 
-**About**
+**about**
 ----
 This is a money web app that calculates a basic balance based on a list of income and expenses.
 moneyapp helps you track your cash, discover new ways to save, and even build!
